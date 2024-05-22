@@ -1,0 +1,28 @@
+table {
+    width: 60%;
+    margin: 50px auto;
+    color: #fff;
+    border-collapse: collapse;
+    // border-radius: 10px;
+    // overflow: hidden;
+    th,
+    td {
+        text-align: center;
+        padding: 10px 0;
+        border: 1px solid #fff;
+    }
+    th {
+        background: #04020d;
+    }
+    tr:nth-child(odd) {
+        background: #936014;
+    }
+    button {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+    // .table__btn {
+    //     text-align: center;
+    // }
+}
